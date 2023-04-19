@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "squeletaz_head"
+      },
+      "name": "default"
+    }
+  }
+}
