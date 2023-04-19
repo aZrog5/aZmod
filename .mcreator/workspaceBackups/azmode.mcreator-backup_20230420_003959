@@ -57,7 +57,7 @@
       "type": "block",
       "sortid": 3,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "squeleta_z_head_b",
       "metadata": {
         "files": [
@@ -73,7 +73,7 @@
       "type": "item",
       "sortid": 4,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "squeleta_z_head_i",
       "metadata": {
         "files": [
@@ -86,8 +86,8 @@
       "name": "ItemToBLoc",
       "type": "procedure",
       "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
+      "compiles": false,
+      "locked_code": true,
       "registry_name": "item_to_b_loc",
       "metadata": {
         "files": [
