@@ -1,5 +1,7 @@
 package net.mcreator.azmode.procedures;
 
+import software.bernie.geckolib3.core.IAnimatable;
+
 import net.minecraftforge.items.ItemHandlerHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,10 +20,10 @@ import javax.annotation.Nullable;
 @Mod.EventBusSubscriber
 public class MilkToCheeseProcedure {
 	@SubscribeEvent
-	public static void onRightClickItem(PlayerInteractEvent.RightClickItem event) {
+	public static void onRightClickEntity(PlayerInteractEvent.EntityInteract event) {
 		if (event.getHand() != event.getEntity().getUsedItemHand())
 			return;
-		execute(event, event.getEntity());
+		execute(event, event.getTarget());
 	}
 
 	public static void execute(Entity entity) {
@@ -31,11 +33,16 @@ public class MilkToCheeseProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (true) {
+		if (entity instanceof IAnimatable) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.MILK_BUCKET) {
 				if (entity instanceof Player _player) {
 					ItemStack _stktoremove = new ItemStack(Items.MILK_BUCKET);
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+				}
+				if (entity instanceof Player _player) {
+					ItemStack _setstack = new ItemStack(Items.BUCKET);
+					_setstack.setCount(1);
+					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 				}
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(Blocks.END_STONE);

@@ -3,14 +3,14 @@ loaderVersion="[43,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="azmod"
+modId="azmode"
 version="1.0.0"
-displayName="AZMOD"
+displayName="AZMODE"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="aZrog5, MCreator"
+authors="Steven, MCreator"
 
-[[dependencies.azmod]]
+[[dependencies.azmode]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"
@@ -18,14 +18,8 @@ authors="aZrog5, MCreator"
     side="BOTH"
 
 
-[[dependencies.azmod]]
-    modId="mcreator_link"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
-[[dependencies.azmod]]
+[[dependencies.azmode]]
     modId="geckolib"
     mandatory=false
     versionRange="[0,)"
