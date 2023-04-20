@@ -24,7 +24,6 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.azmode.init.AzmodeModBlocks;
-import net.mcreator.azmode.init.AzmodeModItems;
 
 import java.util.List;
 import java.util.Collections;
@@ -90,6 +89,6 @@ public class SqueletaZHeadBBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(AzmodeModItems.SQUELETA_Z_HEAD_I.get()));
+		return Collections.singletonList(new ItemStack(AzmodeModBlocks.SQUELETA_Z_HEAD_B.get()));
 	}
 }

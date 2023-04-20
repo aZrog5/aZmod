@@ -1,39 +1,145 @@
-[19avr.2023 23:18:03.263] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Steven\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[19avr.2023 23:18:03.267] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.5 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[19avr.2023 23:18:03.375] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Steven/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
-[19avr.2023 23:18:03.666] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Steven\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.0\5713dfd49576886a7ffc353f14f067ad42369592\javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[19avr.2023 23:18:03.668] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Steven\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.0\51c88985dd125457fb8b6c2c58a4f3b9349a6b57\lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[19avr.2023 23:18:03.671] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Steven\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.0\f4fa83ef8129c7f7cc5847fbafb07f7ae86c1bb\mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[19avr.2023 23:18:03.674] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Steven\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.0\d4dcb5b809b7f035ac22b058941cf81f84451545\fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
-[19avr.2023 23:18:03.743] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[19avr.2023 23:18:04.685] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Steven\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[19avr.2023 23:18:07.382] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[19avr.2023 23:18:08.732] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Steven/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
-[19avr.2023 23:18:08.732] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Steven/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
-[19avr.2023 23:18:08.743] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19avr.2023 23:18:08.746] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[19avr.2023 23:18:08.841] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[19avr.2023 23:18:09.183] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
-[19avr.2023 23:18:09.183] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.0 Initialized
-[19avr.2023 23:18:09.883] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[19avr.2023 23:18:10.120] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[19avr.2023 23:18:10.141] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[19avr.2023 23:18:10.747] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19avr.2023 23:18:11.247] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.2.0 Target: null
-[19avr.2023 23:18:16.069] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[19avr.2023 23:18:16.069] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[19avr.2023 23:18:16.105] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Haut-parleurs (4- Razer Nari Essential)
-[19avr.2023 23:18:16.106] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[19avr.2023 23:18:16.247] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
-[19avr.2023 23:18:16.253] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
-[19avr.2023 23:18:16.254] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[19avr.2023 23:18:16.254] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[19avr.2023 23:18:16.255] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[19avr.2023 23:18:16.255] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[19avr.2023 23:18:16.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19avr.2023 23:18:16.792] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[19avr.2023 23:18:16.985] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[19avr.2023 23:18:16.987] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19avr.2023 23:18:16.987] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19avr.2023 23:18:17.476] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[19avr.2023 23:18:35.418] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[20avr.2023 12:17:18.644] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Steven\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[20avr.2023 12:17:18.647] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.5 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[20avr.2023 12:17:18.757] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Steven/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
+[20avr.2023 12:17:19.054] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Steven\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.0\5713dfd49576886a7ffc353f14f067ad42369592\javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[20avr.2023 12:17:19.058] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Steven\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.0\51c88985dd125457fb8b6c2c58a4f3b9349a6b57\lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[20avr.2023 12:17:19.061] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Steven\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.0\f4fa83ef8129c7f7cc5847fbafb07f7ae86c1bb\mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[20avr.2023 12:17:19.065] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Steven\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.0\d4dcb5b809b7f035ac22b058941cf81f84451545\fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
+[20avr.2023 12:17:19.140] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[20avr.2023 12:17:20.190] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Steven\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[20avr.2023 12:17:22.774] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[20avr.2023 12:17:24.126] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Steven/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[20avr.2023 12:17:24.126] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Steven/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[20avr.2023 12:17:24.137] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20avr.2023 12:17:24.142] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[20avr.2023 12:17:24.233] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[20avr.2023 12:17:24.593] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
+[20avr.2023 12:17:24.593] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.0 Initialized
+[20avr.2023 12:17:25.364] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[20avr.2023 12:17:25.634] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[20avr.2023 12:17:25.664] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[20avr.2023 12:17:25.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20avr.2023 12:17:26.544] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.2.0 Target: null
+[20avr.2023 12:17:31.691] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[20avr.2023 12:17:31.691] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20avr.2023 12:17:31.726] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Haut-parleurs (4- Razer Nari Essential)
+[20avr.2023 12:17:31.728] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20avr.2023 12:17:31.847] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[20avr.2023 12:17:31.853] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[20avr.2023 12:17:31.853] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[20avr.2023 12:17:31.854] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[20avr.2023 12:17:31.854] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[20avr.2023 12:17:31.855] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[20avr.2023 12:17:31.855] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20avr.2023 12:17:32.379] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20avr.2023 12:17:32.551] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[20avr.2023 12:17:32.552] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20avr.2023 12:17:32.553] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20avr.2023 12:17:33.027] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[20avr.2023 12:17:41.645] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level Nouveau monde
+[20avr.2023 12:17:41.645] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
+[20avr.2023 12:17:43.202] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[20avr.2023 12:17:43.819] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[20avr.2023 12:17:45.263] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[20avr.2023 12:17:45.741] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[20avr.2023 12:17:52.467] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[20avr.2023 12:17:52.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20avr.2023 12:17:52.542] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\Nouveau monde\serverconfig\forge-server.toml is not correct. Correcting
+[20avr.2023 12:17:52.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20avr.2023 12:17:52.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[20avr.2023 12:17:52.543] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[20avr.2023 12:17:52.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[20avr.2023 12:17:52.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[20avr.2023 12:17:52.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[20avr.2023 12:17:52.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[20avr.2023 12:17:52.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[20avr.2023 12:18:06.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20avr.2023 12:18:07.564] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[20avr.2023 12:18:07.564] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[20avr.2023 12:18:08.021] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[20avr.2023 12:18:08.519] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[20avr.2023 12:18:08.998] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 2 %
+[20avr.2023 12:18:09.493] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 3 %
+[20avr.2023 12:18:09.997] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 5 %
+[20avr.2023 12:18:10.492] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 7 %
+[20avr.2023 12:18:10.994] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 10 %
+[20avr.2023 12:18:11.508] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 12 %
+[20avr.2023 12:18:11.998] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 15 %
+[20avr.2023 12:18:12.509] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 17 %
+[20avr.2023 12:18:13.013] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 21 %
+[20avr.2023 12:18:13.508] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 23 %
+[20avr.2023 12:18:14.015] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 26 %
+[20avr.2023 12:18:14.507] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 30 %
+[20avr.2023 12:18:14.993] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 33 %
+[20avr.2023 12:18:15.498] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 36 %
+[20avr.2023 12:18:16.020] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 40 %
+[20avr.2023 12:18:16.499] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 43 %
+[20avr.2023 12:18:17.015] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 46 %
+[20avr.2023 12:18:17.497] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 50 %
+[20avr.2023 12:18:17.988] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 54 %
+[20avr.2023 12:18:18.501] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 58 %
+[20avr.2023 12:18:19.015] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 61 %
+[20avr.2023 12:18:19.486] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 67 %
+[20avr.2023 12:18:20.012] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 69 %
+[20avr.2023 12:18:20.512] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 74 %
+[20avr.2023 12:18:20.991] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 75 %
+[20avr.2023 12:18:21.492] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 81 %
+[20avr.2023 12:18:22.012] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 84 %
+[20avr.2023 12:18:22.495] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 87 %
+[20avr.2023 12:18:22.991] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 91 %
+[20avr.2023 12:18:23.496] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 96 %
+[20avr.2023 12:18:23.843] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20avr.2023 12:18:23.870] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 16886 ms
+[20avr.2023 12:18:23.983] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[20avr.2023 12:18:23.985] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[20avr.2023 12:18:24.054] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[20avr.2023 12:18:24.464] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[20avr.2023 12:18:24.484] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1a7b42ce
+[20avr.2023 12:18:24.492] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7c181da1] logged in with entity id 150 at (-278.5, 80.0, 177.5)
+[20avr.2023 12:18:24.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a rejoint la partie
+[20avr.2023 12:18:25.268] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[20avr.2023 12:20:24.145] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20avr.2023 12:20:24.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:overworld
+[20avr.2023 12:20:24.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_nether
+[20avr.2023 12:20:24.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_end
+[20avr.2023 12:20:48.501] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 23 advancements
+[20avr.2023 12:21:07.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a réalisé le progrès [Meilleurs amis pour la vie]
+[20avr.2023 12:21:07.403] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev a réalisé le progrès [Meilleurs amis pour la vie]
+[20avr.2023 12:21:07.450] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 26 advancements
+[20avr.2023 12:21:21.847] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 32 advancements
+[20avr.2023 12:21:58.601] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] RaZ s'est fait tuer par Dev
+[20avr.2023 12:22:04.648] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 32 advancements
+[20avr.2023 12:22:29.651] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 32 advancements
+[20avr.2023 12:22:55.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev : Dev s'est fait téléporter en -418.300000, -10.000000, 141.611555]
+[20avr.2023 12:22:55.610] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev s'est fait téléporter en -418.300000, -10.000000, 141.611555
+[20avr.2023 12:23:03.062] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Argument incorrect pour la commande
+[20avr.2023 12:23:03.063] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] gamemode 3<-- [ICI]
+[20avr.2023 12:23:06.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev : Changement de votre propre mode de jeu en Mode Spectateur]
+[20avr.2023 12:23:06.220] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Changement de votre propre mode de jeu en Mode Spectateur
+[20avr.2023 12:23:23.648] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 32 advancements
+[20avr.2023 12:23:46.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev : L'effet Nyctalopie a été appliqué à Dev]
+[20avr.2023 12:23:46.059] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] L'effet Nyctalopie a été appliqué à Dev
+[20avr.2023 12:24:12.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev : L'effet Nyctalopie a été appliqué à Dev]
+[20avr.2023 12:24:12.517] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] L'effet Nyctalopie a été appliqué à Dev
+[20avr.2023 12:24:35.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev : Changement de votre propre mode de jeu en Mode Créatif]
+[20avr.2023 12:24:35.913] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Changement de votre propre mode de jeu en Mode Créatif
+[20avr.2023 12:24:37.198] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 34 advancements
+[20avr.2023 12:24:55.947] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 41 advancements
+[20avr.2023 12:25:01.994] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20avr.2023 12:25:02.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:overworld
+[20avr.2023 12:25:02.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_nether
+[20avr.2023 12:25:02.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_end
+[20avr.2023 12:25:02.751] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Déconnecté(e)
+[20avr.2023 12:25:02.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a quitté la partie
+[20avr.2023 12:25:02.761] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[20avr.2023 12:25:02.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20avr.2023 12:25:02.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20avr.2023 12:25:02.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20avr.2023 12:25:03.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:overworld
+[20avr.2023 12:25:04.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_nether
+[20avr.2023 12:25:04.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_end
+[20avr.2023 12:25:04.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Nouveau monde): All chunks are saved
+[20avr.2023 12:25:04.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20avr.2023 12:25:04.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20avr.2023 12:25:04.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20avr.2023 12:25:05.881] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

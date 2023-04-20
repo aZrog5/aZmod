@@ -50,8 +50,6 @@ import net.minecraft.network.protocol.Packet;
 import net.mcreator.azmode.procedures.SqueletaZLorsqueLeTempsDeMortEstAtteintProcedure;
 import net.mcreator.azmode.init.AzmodeModEntities;
 import net.mcreator.azmode.init.AzmodeModBlocks;
-//
-import net.mcreator.azmode.init.AzmodeModItems;
 
 public class SqueletaZEntity extends Skeleton implements IAnimatable {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(SqueletaZEntity.class, EntityDataSerializers.BOOLEAN);
@@ -69,7 +67,7 @@ public class SqueletaZEntity extends Skeleton implements IAnimatable {
 
 	public SqueletaZEntity(EntityType<SqueletaZEntity> type, Level world) {
 		super(type, world);
-		xpReward = 10*100;
+		xpReward = 10;
 		setNoAi(false);
 	}
 
@@ -116,8 +114,7 @@ public class SqueletaZEntity extends Skeleton implements IAnimatable {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		//this.spawnAtLocation(new ItemStack(AzmodeModBlocks.SQUELETA_Z_HEAD_B.get()));
-		this.spawnAtLocation(new ItemStack(AzmodeModItems.SQUELETA_Z_HEAD_I.get()));
+		this.spawnAtLocation(new ItemStack(AzmodeModBlocks.SQUELETA_Z_HEAD_B.get()));
 	}
 
 	@Override
