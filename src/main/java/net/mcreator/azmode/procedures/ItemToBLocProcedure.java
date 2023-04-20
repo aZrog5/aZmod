@@ -14,7 +14,6 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.azmode.init.AzmodeModItems;
 import net.mcreator.azmode.init.AzmodeModBlocks;
-import net.minecraft.level.block.Block;
 
 import javax.annotation.Nullable;
 
@@ -24,7 +23,6 @@ public class ItemToBLocProcedure {
 	public static void onRightClickItem(PlayerInteractEvent.RightClickItem event) {
 		if (event.getHand() != event.getEntity().getUsedItemHand())
 			return;
-		Block targetedBlock = event.getTargetBlock(null, 100);
 		execute(event, event.getLevel(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ(), event.getEntity());
 	}
 
