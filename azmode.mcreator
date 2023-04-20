@@ -152,6 +152,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "Holysword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holysword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/azmode/models/item/holysword.json",
+          "src/main/java/net/mcreator/azmode/item/HolyswordItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -161,6 +175,7 @@
       "item.azmode.squeleta_z_spawn_egg": "SqueletaZ Spawn Egg",
       "block.azmode.squeleta_z_head_b": "SqueletaZ Head",
       "item.azmode.squeleta_z_head_i": "SqueletaZ Head",
+      "item.azmode.holysword": "Holy Sword",
       "entity.azmode.squeleta_z": "SqueletaZ",
       "entity.azmode.ra_z": "RaZ",
       "item.azmode.ra_z_spawn_egg": "RaZ Spawn Egg"

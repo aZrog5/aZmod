@@ -29,21 +29,22 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:skeleton": "2023-04-20 15:46:01 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-04-20 15:44:39 +0200"
     },
     "done": true
   },
-  "minecraft:adventure/kill_all_mobs": {
+  "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:skeleton": "2023-04-20 15:46:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2023-04-20 15:46:01 +0200",
+      "minecraft:zombie": "2023-04-20 21:41:27 +0200"
     },
     "done": false
   },
