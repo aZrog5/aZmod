@@ -130,8 +130,26 @@
           "src/main/java/net/mcreator/azmode/entity/model/RaZModel.java",
           "src/main/java/net/mcreator/azmode/entity/RaZEntity.java",
           "src/main/java/net/mcreator/azmode/client/renderer/RaZRenderer.java",
-          "src/main/java/net/mcreator/azmode/entity/layer/RaZLayer.java",
           "src/main/resources/data/azmode/forge/biome_modifier/ra_z_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MilkToCheese",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_to_cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/MilkToCheeseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     }
