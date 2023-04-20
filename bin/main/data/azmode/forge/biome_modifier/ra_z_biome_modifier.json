@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "dripstone_caves",
+    "mangrove_swamp",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "azmode:ra_z",
+    "weight": 10,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}
