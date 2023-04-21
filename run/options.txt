@@ -26,7 +26,7 @@ screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
 gamma:0.5
-renderDistance:5
+renderDistance:16
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:2
@@ -111,7 +111,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:0.6639073
+soundCategory_master:0.18377483
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
