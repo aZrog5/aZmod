@@ -18,11 +18,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -10066330,
+      "value": -11513776,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -6724096,
+      "value": -3381760,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -76,13 +76,13 @@
     "immuneToFallDamage": true,
     "immuneToCactus": false,
     "immuneToDrowning": false,
-    "immuneToLightning": true,
+    "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "immuneToExplosion": false,
     "immuneToTrident": false,
     "immuneToAnvil": false,
-    "immuneToWither": true,
+    "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
       "value": ""
@@ -91,20 +91,16 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.phantom.hurt"
+      "value": "entity.generic.hurt"
     },
     "deathSound": {
-      "value": "entity.phantom.death"
+      "value": "entity.generic.death"
     },
     "stepSound": {
       "value": ""
     },
-<<<<<<< HEAD
     "hasAI": true,
-=======
-    "hasAI": false,
->>>>>>> 0dc214c3db0f1eb438cf3b0fc81b796970bad4d9
-    "aiBase": "Blaze",
+    "aiBase": "Bat",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "model": "squeletrazprimescythe.geo.json",
     "groupName": "",
@@ -141,7 +137,7 @@
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "height": 1.0,
-    "spawnThisMob": false,
+    "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
