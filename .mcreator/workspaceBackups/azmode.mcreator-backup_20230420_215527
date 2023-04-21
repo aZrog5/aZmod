@@ -1,0 +1,209 @@
+{
+  "mod_elements": [
+    {
+      "name": "SqueletaZ",
+      "type": "animatedentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squeleta_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/azmode/forge/biome_modifier/squeleta_z_biome_modifier.json",
+          "src/main/java/net/mcreator/azmode/entity/model/SqueletaZModel.java",
+          "src/main/resources/assets/azmode/models/item/squeleta_z_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/entity/SqueletaZEntity.java",
+          "src/main/java/net/mcreator/azmode/client/renderer/SqueletaZRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SqueletaZLorsqueLeTempsDeMortEstAtteint",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squeleta_z_lorsque_le_temps_de_mort_est_atteint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/SqueletaZLorsqueLeTempsDeMortEstAtteintProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SqueletaZHeadB",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squeleta_z_head_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/block/SqueletaZHeadBBlock.java",
+          "src/main/resources/assets/azmode/models/block/squeleta_z_head_b.json",
+          "src/main/resources/assets/azmode/models/item/squeleta_z_head_b.json",
+          "src/main/resources/assets/azmode/blockstates/squeleta_z_head_b.json"
+        ]
+      }
+    },
+    {
+      "name": "SqueletaZHeadI",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squeleta_z_head_i",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/azmode/models/item/squeleta_z_head_i.json",
+          "src/main/java/net/mcreator/azmode/item/SqueletaZHeadIItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ItemToBLoc",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_to_b_loc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/ItemToBLocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RaZ",
+      "type": "animatedentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ra_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/azmode/models/item/ra_z_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/entity/model/RaZModel.java",
+          "src/main/java/net/mcreator/azmode/entity/RaZEntity.java",
+          "src/main/java/net/mcreator/azmode/client/renderer/RaZRenderer.java",
+          "src/main/resources/data/azmode/forge/biome_modifier/ra_z_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MilkToCheese",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_to_cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/MilkToCheeseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Squeletrazprimescythe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squeletrazprimescythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/azmode/models/item/squeletrazprimescythe.json",
+          "src/main/java/net/mcreator/azmode/item/SqueletrazprimescytheItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.azmode.squeleta_z_spawn_egg": "SqueletaZ Spawn Egg",
+      "block.azmode.squeleta_z_head_b": "SqueletaZ Head",
+      "item.azmode.squeleta_z_head_i": "SqueletaZ Head",
+      "entity.azmode.squeleta_z": "SqueletaZ",
+      "item.azmode.squeletrazprimescythe": "SqueletraZ Prime Scythe",
+      "entity.azmode.ra_z": "RaZ",
+      "item.azmode.ra_z_spawn_egg": "RaZ Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "azmode",
+    "modName": "AZMODE",
+    "version": "1.0.0",
+    "author": "Steven, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.azmode",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

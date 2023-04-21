@@ -1,0 +1,25 @@
+{
+  "parent": "azmode:custom/bonesword",
+  "textures": {
+    "11": "azmode:blocks/texture8",
+    "12": "azmode:blocks/texture9",
+    "13": "azmode:blocks/texture9",
+    "14": "azmode:blocks/texture16",
+    "15": "azmode:blocks/texture16",
+    "16": "azmode:blocks/texture7",
+    "17": "azmode:blocks/texture19",
+    "18": "azmode:blocks/texture18",
+    "0": "azmode:blocks/texture4",
+    "1": "azmode:blocks/texture2",
+    "2": "azmode:blocks/texture3",
+    "3": "azmode:blocks/texture4",
+    "4": "azmode:blocks/texture5",
+    "5": "azmode:blocks/texture6",
+    "6": "azmode:blocks/texture9",
+    "7": "azmode:blocks/texture9",
+    "8": "azmode:blocks/texture9",
+    "9": "azmode:blocks/texture9",
+    "10": "azmode:blocks/texture9",
+    "particle": "azmode:items/texture5"
+  }
+}

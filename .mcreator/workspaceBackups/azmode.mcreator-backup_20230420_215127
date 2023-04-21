@@ -130,8 +130,40 @@
           "src/main/java/net/mcreator/azmode/entity/model/RaZModel.java",
           "src/main/java/net/mcreator/azmode/entity/RaZEntity.java",
           "src/main/java/net/mcreator/azmode/client/renderer/RaZRenderer.java",
-          "src/main/java/net/mcreator/azmode/entity/layer/RaZLayer.java",
           "src/main/resources/data/azmode/forge/biome_modifier/ra_z_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MilkToCheese",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_to_cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/MilkToCheeseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Squeletrazprimescythe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squeletrazprimescythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/azmode/models/item/squeletrazprimescythe.json",
+          "src/main/java/net/mcreator/azmode/item/SqueletrazprimescytheItem.java"
         ]
       }
     }
@@ -144,6 +176,7 @@
       "block.azmode.squeleta_z_head_b": "SqueletaZ Head",
       "item.azmode.squeleta_z_head_i": "SqueletaZ Head",
       "entity.azmode.squeleta_z": "SqueletaZ",
+      "item.azmode.squeletrazprimescythe": "SqueletraZ Prime Scythe",
       "entity.azmode.ra_z": "RaZ",
       "item.azmode.ra_z_spawn_egg": "RaZ Spawn Egg"
     }
