@@ -19,6 +19,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.monster.Blaze;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
@@ -49,7 +50,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.azmode.init.AzmodeModEntities;
 
-public class ScytheEntity extends Monster implements IAnimatable {
+public class ScytheEntity extends Blaze implements IAnimatable {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(ScytheEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(ScytheEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(ScytheEntity.class, EntityDataSerializers.STRING);
@@ -113,7 +114,7 @@ public class ScytheEntity extends Monster implements IAnimatable {
 
 	@Override
 	public MobType getMobType() {
-		return MobType.UNDEAD;
+		return MobType.UNDEFINED;
 	}
 
 	@Override
@@ -162,8 +163,10 @@ public class ScytheEntity extends Monster implements IAnimatable {
 		super.setNoGravity(true);
 	}
 
+	@Override
 	public void aiStep() {
 		super.aiStep();
+		this.updateSwingTime();
 		this.setNoGravity(true);
 	}
 
