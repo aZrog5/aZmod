@@ -1,7 +1,0 @@
-{
-  "parent": "azmode:custom/squeletaz_head",
-  "textures": {
-    "0": "azmode:blocks/squeletaz_head",
-    "particle": "azmode:items/squeletaz_head"
-  }
-}
