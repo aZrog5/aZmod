@@ -176,11 +176,18 @@
       "registry_name": "scythe",
       "metadata": {
         "files": [
+<<<<<<<< HEAD:.mcreator/workspaceBackups/azmode.mcreator-backup_20230421_213803
           "src/main/resources/data/azmode/forge/biome_modifier/scythe_biome_modifier.json",
           "src/main/java/net/mcreator/azmode/entity/ScytheEntity.java",
           "src/main/java/net/mcreator/azmode/entity/model/ScytheModel.java",
           "src/main/java/net/mcreator/azmode/client/renderer/ScytheRenderer.java",
           "src/main/resources/assets/azmode/models/item/scythe_spawn_egg.json"
+========
+          "src/main/java/net/mcreator/azmode/entity/ScytheEntity.java",
+          "src/main/java/net/mcreator/azmode/entity/model/ScytheModel.java",
+          "src/main/resources/assets/azmode/models/item/scythe_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/client/renderer/ScytheRenderer.java"
+>>>>>>>> 0dc214c3db0f1eb438cf3b0fc81b796970bad4d9:.mcreator/workspaceBackups/azmode.mcreator-backup_20230421_211526
         ]
       }
     }

@@ -126,11 +126,11 @@
       "registry_name": "ra_z",
       "metadata": {
         "files": [
-          "src/main/resources/assets/azmode/models/item/ra_z_spawn_egg.json",
           "src/main/java/net/mcreator/azmode/entity/model/RaZModel.java",
-          "src/main/java/net/mcreator/azmode/entity/RaZEntity.java",
+          "src/main/resources/data/azmode/forge/biome_modifier/ra_z_biome_modifier.json",
           "src/main/java/net/mcreator/azmode/client/renderer/RaZRenderer.java",
-          "src/main/resources/data/azmode/forge/biome_modifier/ra_z_biome_modifier.json"
+          "src/main/resources/assets/azmode/models/item/ra_z_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/entity/RaZEntity.java"
         ]
       }
     },
@@ -176,11 +176,41 @@
       "registry_name": "scythe",
       "metadata": {
         "files": [
-          "src/main/resources/data/azmode/forge/biome_modifier/scythe_biome_modifier.json",
           "src/main/java/net/mcreator/azmode/entity/ScytheEntity.java",
           "src/main/java/net/mcreator/azmode/entity/model/ScytheModel.java",
-          "src/main/java/net/mcreator/azmode/client/renderer/ScytheRenderer.java",
-          "src/main/resources/assets/azmode/models/item/scythe_spawn_egg.json"
+          "src/main/resources/assets/azmode/models/item/scythe_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/client/renderer/ScytheRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ScytheOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/ScytheOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }

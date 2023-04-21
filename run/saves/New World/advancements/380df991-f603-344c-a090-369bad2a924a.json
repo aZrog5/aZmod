@@ -1,0 +1,14 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+<<<<<<< HEAD:run/saves/Nouveau monde/advancements/380df991-f603-344c-a090-369bad2a924a.json
+      "minecraft:plains": "2023-04-21 21:46:23 +0200"
+=======
+      "minecraft:forest": "2023-04-21 21:23:01 +0200",
+      "minecraft:jungle": "2023-04-21 21:22:29 +0200"
+>>>>>>> 0dc214c3db0f1eb438cf3b0fc81b796970bad4d9:run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
