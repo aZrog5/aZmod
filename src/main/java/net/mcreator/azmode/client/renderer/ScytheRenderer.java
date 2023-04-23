@@ -9,6 +9,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.azmode.entity.model.ScytheModel;
+import net.mcreator.azmode.entity.layer.ScytheLayer;
 import net.mcreator.azmode.entity.ScytheEntity;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -18,6 +19,7 @@ public class ScytheRenderer extends GeoEntityRenderer<ScytheEntity> {
 	public ScytheRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new ScytheModel());
 		this.shadowRadius = 0.5f;
+		this.addLayer(new ScytheLayer(this));
 	}
 
 	@Override

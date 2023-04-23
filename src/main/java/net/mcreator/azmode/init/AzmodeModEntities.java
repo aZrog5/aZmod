@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.azmode.entity.SqueletrazprimeEntity;
 import net.mcreator.azmode.entity.SqueletaZEntity;
 import net.mcreator.azmode.entity.ScytheEntity;
 import net.mcreator.azmode.entity.RaZEntity;
@@ -36,6 +37,10 @@ public class AzmodeModEntities {
 			EntityType.Builder.<ScytheEntity>of(ScytheEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ScytheEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SqueletrazprimeEntity>> SQUELETRAZPRIME = register("squeletrazprime",
+			EntityType.Builder.<SqueletrazprimeEntity>of(SqueletrazprimeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SqueletrazprimeEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -47,6 +52,7 @@ public class AzmodeModEntities {
 			SqueletaZEntity.init();
 			RaZEntity.init();
 			ScytheEntity.init();
+			SqueletrazprimeEntity.init();
 		});
 	}
 
@@ -55,5 +61,6 @@ public class AzmodeModEntities {
 		event.put(SQUELETA_Z.get(), SqueletaZEntity.createAttributes().build());
 		event.put(RA_Z.get(), RaZEntity.createAttributes().build());
 		event.put(SCYTHE.get(), ScytheEntity.createAttributes().build());
+		event.put(SQUELETRAZPRIME.get(), SqueletrazprimeEntity.createAttributes().build());
 	}
 }

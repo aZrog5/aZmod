@@ -26,6 +26,8 @@ public class AzmodeModItems {
 	public static final RegistryObject<Item> RA_Z_SPAWN_EGG = REGISTRY.register("ra_z_spawn_egg", () -> new ForgeSpawnEggItem(AzmodeModEntities.RA_Z, -13434829, -39169, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> HOLYSWORD = REGISTRY.register("holysword", () -> new HolyswordItem());
 	public static final RegistryObject<Item> SCYTHE_SPAWN_EGG = REGISTRY.register("scythe_spawn_egg", () -> new ForgeSpawnEggItem(AzmodeModEntities.SCYTHE, -11513776, -3381760, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> SQUELETRAZPRIME_SPAWN_EGG = REGISTRY.register("squeletrazprime_spawn_egg",
+			() -> new ForgeSpawnEggItem(AzmodeModEntities.SQUELETRAZPRIME, -13421773, -10092544, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

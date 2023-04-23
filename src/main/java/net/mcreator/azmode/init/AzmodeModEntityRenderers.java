@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.azmode.client.renderer.SqueletrazprimeRenderer;
 import net.mcreator.azmode.client.renderer.SqueletaZRenderer;
 import net.mcreator.azmode.client.renderer.ScytheRenderer;
 import net.mcreator.azmode.client.renderer.RaZRenderer;
@@ -20,5 +21,6 @@ public class AzmodeModEntityRenderers {
 		event.registerEntityRenderer(AzmodeModEntities.SQUELETA_Z.get(), SqueletaZRenderer::new);
 		event.registerEntityRenderer(AzmodeModEntities.RA_Z.get(), RaZRenderer::new);
 		event.registerEntityRenderer(AzmodeModEntities.SCYTHE.get(), ScytheRenderer::new);
+		event.registerEntityRenderer(AzmodeModEntities.SQUELETRAZPRIME.get(), SqueletrazprimeRenderer::new);
 	}
 }
