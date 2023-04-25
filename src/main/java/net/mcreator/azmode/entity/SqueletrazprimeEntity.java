@@ -68,6 +68,7 @@ public class SqueletrazprimeEntity extends Monster implements IAnimatable {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+		setPersistenceRequired();
 		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
 
@@ -115,6 +116,11 @@ public class SqueletrazprimeEntity extends Monster implements IAnimatable {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override

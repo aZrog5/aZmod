@@ -204,18 +204,33 @@
           "src/main/java/net/mcreator/azmode/entity/model/SqueletrazprimeModel.java"
         ]
       }
+    },
+    {
+      "name": "Holypickaxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holypickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/azmode/models/item/holypickaxe.json",
+          "src/main/java/net/mcreator/azmode/item/HolypickaxeItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "entity.azmode.scythe": "Scythe",
       "item.azmode.squeleta_z_spawn_egg": "SqueletaZ Spawn Egg",
+      "item.azmode.holypickaxe": "Holypickaxe",
+      "item.azmode.scythe_spawn_egg": "Scythe Spawn Egg",
+      "entity.azmode.scythe": "Scythe",
       "item.azmode.squeletrazprime_spawn_egg": "Squeletrazprime Spawn Egg",
       "block.azmode.squeleta_z_head_b": "SqueletaZ Head",
       "item.azmode.squeleta_z_head_i": "SqueletaZ Head",
-      "item.azmode.scythe_spawn_egg": "Scythe Spawn Egg",
       "item.azmode.holysword": "Holy Sword",
       "entity.azmode.squeleta_z": "SqueletaZ",
       "entity.azmode.ra_z": "RaZ",

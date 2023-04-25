@@ -18,7 +18,7 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -13421773,
+      "value": -6710887,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
@@ -138,7 +138,7 @@
     "rangedAttackRadius": 10.0,
     "height": 1.0,
     "spawnThisMob": true,
-    "doesDespawnWhenIdle": true,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
