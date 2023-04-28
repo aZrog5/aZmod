@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "texture1",
+    "texture": "texture0",
     "customModelName": "holypickaxe:default",
     "name": "Holypickaxe",
     "specialInfo": [],
