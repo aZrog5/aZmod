@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.azmode.item.SqueletaZHeadIItem;
 import net.mcreator.azmode.item.HolyswordItem;
+import net.mcreator.azmode.item.HolyshowelItem;
 import net.mcreator.azmode.item.HolypickaxeItem;
 import net.mcreator.azmode.AzmodeMod;
 
@@ -29,6 +30,7 @@ public class AzmodeModItems {
 	public static final RegistryObject<Item> HOLYPICKAXE = REGISTRY.register("holypickaxe", () -> new HolypickaxeItem());
 	public static final RegistryObject<Item> TANUZ_SPAWN_EGG = REGISTRY.register("tanuz_spawn_egg", () -> new ForgeSpawnEggItem(AzmodeModEntities.TANUZ, -39424, -256, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> MEZZ_SPAWN_EGG = REGISTRY.register("mezz_spawn_egg", () -> new ForgeSpawnEggItem(AzmodeModEntities.MEZZ, -103, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> HOLYSHOWEL = REGISTRY.register("holyshowel", () -> new HolyshowelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "11": "texturesh10",
+        "12": "texturesh11",
+        "13": "texturesh12",
+        "14": "texturesh13",
+        "16": "texturesh14",
+        "17": "texturesh16",
+        "1": "texturesh0",
+        "2": "texturesh1",
+        "3": "texturesh2",
+        "4": "texturesh3",
+        "5": "texturesh4",
+        "6": "texturesh5",
+        "7": "texturesh6",
+        "8": "texturesh7",
+        "9": "texturesh8",
+        "10": "texturesh9"
+      },
+      "name": "default"
+    }
+  }
+}

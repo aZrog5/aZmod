@@ -312,6 +312,33 @@
           "src/main/java/net/mcreator/azmode/client/renderer/MezzRenderer.java"
         ]
       }
+    },
+    {
+      "name": "Holyshowel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holyshowel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/item/HolyshowelItem.java",
+          "src/main/resources/assets/azmode/models/item/holyshowel.json"
+        ]
+      }
+    },
+    {
+      "name": "Holycraftsh",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holycraftsh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/azmode/recipes/holycraftsh.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -327,6 +354,7 @@
       "item.azmode.tanuz_spawn_egg": "Tanuz Spawn Egg",
       "item.azmode.squeleta_z_head_i": "SqueletaZ Head",
       "item.azmode.holysword": "Holy Sword",
+      "item.azmode.holyshowel": "Holyshowel",
       "entity.azmode.squeleta_z": "SqueletaZ",
       "entity.azmode.ra_z": "RaZ",
       "item.azmode.ra_z_spawn_egg": "RaZ Spawn Egg"

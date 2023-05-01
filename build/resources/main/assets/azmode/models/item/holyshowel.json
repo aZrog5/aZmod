@@ -1,0 +1,22 @@
+{
+  "parent": "azmode:custom/hollyshovel",
+  "textures": {
+    "11": "azmode:blocks/texturesh10",
+    "12": "azmode:blocks/texturesh11",
+    "13": "azmode:blocks/texturesh12",
+    "14": "azmode:blocks/texturesh13",
+    "16": "azmode:blocks/texturesh14",
+    "17": "azmode:blocks/texturesh16",
+    "1": "azmode:blocks/texturesh0",
+    "2": "azmode:blocks/texturesh1",
+    "3": "azmode:blocks/texturesh2",
+    "4": "azmode:blocks/texturesh3",
+    "5": "azmode:blocks/texturesh4",
+    "6": "azmode:blocks/texturesh5",
+    "7": "azmode:blocks/texturesh6",
+    "8": "azmode:blocks/texturesh7",
+    "9": "azmode:blocks/texturesh8",
+    "10": "azmode:blocks/texturesh9",
+    "particle": "azmode:items/texturesh3"
+  }
+}
