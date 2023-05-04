@@ -339,6 +339,20 @@
           "src/main/resources/data/azmode/recipes/holycraftsh.json"
         ]
       }
+    },
+    {
+      "name": "ArkadyzDeathTime",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arkadyz_death_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/ArkadyzDeathTimeProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
