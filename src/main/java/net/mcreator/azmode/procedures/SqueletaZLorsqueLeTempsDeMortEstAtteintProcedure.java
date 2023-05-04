@@ -12,7 +12,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
-
+						
 import net.mcreator.azmode.entity.SqueletaZEntity;
 
 public class SqueletaZLorsqueLeTempsDeMortEstAtteintProcedure {

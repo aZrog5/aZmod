@@ -341,24 +341,11 @@
       }
     },
     {
-<<<<<<< HEAD
-      "name": "ArkadyzDeathTime",
-=======
       "name": "Holysworddistantlightnig",
->>>>>>> 11162bafcec0d33d0b556e45b0a2efcaf1da2d05
       "type": "procedure",
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-<<<<<<< HEAD
-      "registry_name": "arkadyz_death_time",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/azmode/procedures/ArkadyzDeathTimeProcedure.java"
-        ],
-        "dependencies": []
-      }
-=======
       "registry_name": "holysworddistantlightnig",
       "metadata": {
         "files": [
@@ -382,7 +369,41 @@
           "src/main/java/net/mcreator/azmode/client/renderer/ArkadyzRenderer.java"
         ]
       }
->>>>>>> 11162bafcec0d33d0b556e45b0a2efcaf1da2d05
+    },
+    {
+      "name": "ArkadyzDeathTime",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arkadyz_death_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/ArkadyzDeathTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
