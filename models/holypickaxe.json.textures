@@ -1,0 +1,29 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "11": "texturep11",
+        "12": "texturep12",
+        "13": "texturep13",
+        "14": "texturep14",
+        "15": "texturep15",
+        "16": "texturep16",
+        "17": "texturep17",
+        "18": "texturep18",
+        "19": "texturep19",
+        "0": "texturep0",
+        "1": "texturep1",
+        "2": "texturep2",
+        "3": "texturep3",
+        "4": "texturep4",
+        "5": "texturep5",
+        "6": "texturep6",
+        "7": "texturep7",
+        "8": "texturep8",
+        "9": "texturep9",
+        "10": "texturep10"
+      },
+      "name": "default"
+    }
+  }
+}

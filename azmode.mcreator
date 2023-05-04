@@ -126,11 +126,11 @@
       "registry_name": "ra_z",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/azmode/entity/model/RaZModel.java",
-          "src/main/resources/data/azmode/forge/biome_modifier/ra_z_biome_modifier.json",
-          "src/main/java/net/mcreator/azmode/client/renderer/RaZRenderer.java",
           "src/main/resources/assets/azmode/models/item/ra_z_spawn_egg.json",
-          "src/main/java/net/mcreator/azmode/entity/RaZEntity.java"
+          "src/main/java/net/mcreator/azmode/entity/model/RaZModel.java",
+          "src/main/java/net/mcreator/azmode/entity/RaZEntity.java",
+          "src/main/java/net/mcreator/azmode/client/renderer/RaZRenderer.java",
+          "src/main/resources/data/azmode/forge/biome_modifier/ra_z_biome_modifier.json"
         ]
       }
     },
@@ -148,6 +148,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -168,33 +172,77 @@
       }
     },
     {
-      "name": "Scythe",
-      "type": "animatedentity",
-      "sortid": 10,
+      "name": "Holypickaxe",
+      "type": "tool",
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "scythe",
+      "registry_name": "holypickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/azmode/entity/ScytheEntity.java",
-          "src/main/java/net/mcreator/azmode/entity/model/ScytheModel.java",
-          "src/main/resources/assets/azmode/models/item/scythe_spawn_egg.json",
-          "src/main/java/net/mcreator/azmode/client/renderer/ScytheRenderer.java"
+          "src/main/resources/assets/azmode/models/item/holypickaxe.json",
+          "src/main/java/net/mcreator/azmode/item/HolypickaxeItem.java"
         ]
       }
     },
     {
-      "name": "ScytheOnInitialEntitySpawn",
-      "type": "procedure",
-      "sortid": 11,
+      "name": "Tanuz",
+      "type": "animatedentity",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "scythe_on_initial_entity_spawn",
+      "registry_name": "tanuz",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/azmode/procedures/ScytheOnInitialEntitySpawnProcedure.java"
+          "src/main/java/net/mcreator/azmode/entity/model/TanuzModel.java",
+          "src/main/resources/assets/azmode/models/item/tanuz_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/entity/TanuzEntity.java",
+          "src/main/java/net/mcreator/azmode/client/renderer/TanuzRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Holycrafts",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holycrafts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/azmode/recipes/holycrafts.json"
+        ]
+      }
+    },
+    {
+      "name": "Holycraftp",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holycraftp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/azmode/recipes/holycraftp.json"
+        ]
+      }
+    },
+    {
+      "name": "HolyswordLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holysword_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/HolyswordLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -213,18 +261,100 @@
           }
         ]
       }
+    },
+    {
+      "name": "Holyswordthunderentity",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holyswordthunderentity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/HolyswordthunderentityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mezz",
+      "type": "animatedentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mezz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/entity/MezzEntity.java",
+          "src/main/java/net/mcreator/azmode/entity/model/MezzModel.java",
+          "src/main/resources/assets/azmode/models/item/mezz_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/client/renderer/MezzRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Holyshowel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holyshowel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/item/HolyshowelItem.java",
+          "src/main/resources/assets/azmode/models/item/holyshowel.json"
+        ]
+      }
+    },
+    {
+      "name": "Holycraftsh",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holycraftsh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/azmode/recipes/holycraftsh.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "entity.azmode.scythe": "Scythe",
+      "item.azmode.mezz_spawn_egg": "Mezz Spawn Egg",
       "item.azmode.squeleta_z_spawn_egg": "SqueletaZ Spawn Egg",
+      "item.azmode.holypickaxe": "Holypickaxe",
+      "entity.azmode.tanuz": "Tanuz",
+      "entity.azmode.mezz": "Mezz",
       "block.azmode.squeleta_z_head_b": "SqueletaZ Head",
+      "item.azmode.tanuz_spawn_egg": "Tanuz Spawn Egg",
       "item.azmode.squeleta_z_head_i": "SqueletaZ Head",
-      "item.azmode.scythe_spawn_egg": "Scythe Spawn Egg",
       "item.azmode.holysword": "Holy Sword",
+      "item.azmode.holyshowel": "Holyshowel",
       "entity.azmode.squeleta_z": "SqueletaZ",
       "entity.azmode.ra_z": "RaZ",
       "item.azmode.ra_z_spawn_egg": "RaZ Spawn Egg"

@@ -40,7 +40,7 @@ renderClouds:"false"
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:localhost:25463
-lang:en_us
+lang:fr_fr
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
@@ -111,7 +111,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:0.18377483
+soundCategory_master:0.03311258
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

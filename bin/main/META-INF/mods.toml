@@ -1,3 +1,39 @@
+<<<<<<< HEAD
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="azmod"
+version="1.0.0"
+displayName="AZMOD"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="aZrog5, MCreator"
+
+[[dependencies.azmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.azmod]]
+    modId="mcreator_link"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.azmod]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+=======
 modLoader="javafml"
 loaderVersion="[43,)"
 license="Academic Free License v3.0"
@@ -26,3 +62,4 @@ authors="Steven, MCreator"
     ordering="NONE"
     side="BOTH"
 
+>>>>>>> 50574afcd19d68244cb583c78a401a37f56ac70f

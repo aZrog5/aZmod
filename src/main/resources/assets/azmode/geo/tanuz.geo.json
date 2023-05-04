@@ -1,0 +1,100 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Tanuz",
+					"pivot": [0, -1, 0]
+				},
+				{
+					"name": "body",
+					"parent": "Tanuz",
+					"pivot": [0, -1, -1],
+					"cubes": [
+						{"origin": [-4, 11, -3], "size": [8, 12, 4], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 27, -1],
+					"cubes": [
+						{"origin": [-4, 23, -5], "size": [8, 8, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Lhorn",
+					"parent": "head",
+					"pivot": [0, -1, 1],
+					"cubes": [
+						{"origin": [-5, 30, -6], "size": [2, 2, 4], "uv": [42, 20]},
+						{"origin": [-5, 30, -7], "size": [2, 2, 3], "pivot": [4, 32, -5], "rotation": [-45, 0, 0], "uv": [32, 43]},
+						{"origin": [-5, 32.5, -6.5], "size": [2, 4, 2], "pivot": [-4, 35, -8], "rotation": [-27.5, 0, 0], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "martyre",
+					"parent": "head",
+					"pivot": [0, -3, -1],
+					"cubes": [
+						{"origin": [-5, 29, -6], "size": [9, 1, 1], "uv": [36, 16]},
+						{"origin": [-5, 29, -5], "size": [1, 1, 9], "uv": [31, 23]},
+						{"origin": [-4, 29, 3], "size": [9, 1, 1], "uv": [36, 18]},
+						{"origin": [4, 29, -6], "size": [1, 1, 9], "uv": [32, 33]}
+					]
+				},
+				{
+					"name": "Rhorn",
+					"parent": "head",
+					"pivot": [0, -1, -1],
+					"cubes": [
+						{"origin": [3, 30, -6], "size": [2, 2, 4], "uv": [42, 26]},
+						{"origin": [3, 30, -7], "size": [2, 2, 3], "pivot": [4, 32, -5], "rotation": [-45, 0, 0], "uv": [43, 33]},
+						{"origin": [3, 32.5, -6.5], "size": [2, 4, 2], "pivot": [-4, 35, -8], "rotation": [-27.5, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Larm",
+					"parent": "body",
+					"pivot": [4, 23, -1],
+					"cubes": [
+						{"origin": [4, 11, -3], "size": [4, 12, 4], "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "Rarm",
+					"parent": "body",
+					"pivot": [-4, 23, -1],
+					"cubes": [
+						{"origin": [-8, 11, -3], "size": [4, 12, 4], "uv": [16, 32]}
+					]
+				},
+				{
+					"name": "Lleg",
+					"parent": "body",
+					"pivot": [-1.9, 11, -1],
+					"cubes": [
+						{"origin": [-3.9, -1, -3], "size": [4, 12, 4], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "Rleg",
+					"parent": "body",
+					"pivot": [1.9, 11, -1],
+					"cubes": [
+						{"origin": [-0.1, -1, -3], "size": [4, 12, 4], "uv": [24, 16]}
+					]
+				}
+			]
+		}
+	]
+}

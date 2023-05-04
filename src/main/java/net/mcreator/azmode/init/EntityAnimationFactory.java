@@ -4,9 +4,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
+import net.mcreator.azmode.entity.TanuzEntity;
 import net.mcreator.azmode.entity.SqueletaZEntity;
-import net.mcreator.azmode.entity.ScytheEntity;
 import net.mcreator.azmode.entity.RaZEntity;
+import net.mcreator.azmode.entity.MezzEntity;
 
 @Mod.EventBusSubscriber
 public class EntityAnimationFactory {
@@ -27,7 +28,14 @@ public class EntityAnimationFactory {
 					syncable.animationprocedure = animation;
 				}
 			}
-			if (event.getEntity() instanceof ScytheEntity syncable) {
+			if (event.getEntity() instanceof TanuzEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof MezzEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

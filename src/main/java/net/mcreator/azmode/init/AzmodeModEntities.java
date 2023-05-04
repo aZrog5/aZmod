@@ -16,9 +16,10 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.azmode.entity.TanuzEntity;
 import net.mcreator.azmode.entity.SqueletaZEntity;
-import net.mcreator.azmode.entity.ScytheEntity;
 import net.mcreator.azmode.entity.RaZEntity;
+import net.mcreator.azmode.entity.MezzEntity;
 import net.mcreator.azmode.AzmodeMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -32,8 +33,12 @@ public class AzmodeModEntities {
 			EntityType.Builder.<RaZEntity>of(RaZEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RaZEntity::new)
 
 					.sized(1f, 1f));
-	public static final RegistryObject<EntityType<ScytheEntity>> SCYTHE = register("scythe",
-			EntityType.Builder.<ScytheEntity>of(ScytheEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ScytheEntity::new)
+	public static final RegistryObject<EntityType<TanuzEntity>> TANUZ = register("tanuz",
+			EntityType.Builder.<TanuzEntity>of(TanuzEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TanuzEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<MezzEntity>> MEZZ = register("mezz",
+			EntityType.Builder.<MezzEntity>of(MezzEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MezzEntity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -46,7 +51,8 @@ public class AzmodeModEntities {
 		event.enqueueWork(() -> {
 			SqueletaZEntity.init();
 			RaZEntity.init();
-			ScytheEntity.init();
+			TanuzEntity.init();
+			MezzEntity.init();
 		});
 	}
 
@@ -54,6 +60,7 @@ public class AzmodeModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(SQUELETA_Z.get(), SqueletaZEntity.createAttributes().build());
 		event.put(RA_Z.get(), RaZEntity.createAttributes().build());
-		event.put(SCYTHE.get(), ScytheEntity.createAttributes().build());
+		event.put(TANUZ.get(), TanuzEntity.createAttributes().build());
+		event.put(MEZZ.get(), MezzEntity.createAttributes().build());
 	}
 }

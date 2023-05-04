@@ -1,0 +1,9 @@
+{
+  "parent": "azmode:custom/squeletaz_head",
+  "textures": {
+    "all": "azmode:blocks/squeletaz_head",
+    "particle": "azmode:blocks/squeletaz_head",
+    "0": "azmode:blocks/squeletaz_head"
+  },
+  "render_type": "cutout_mipped"
+}
