@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-{
-  "pack": {
-    "description": "azmod mod resources",
-    "pack_format": 9,
-    "forge:resource_pack_format": 9,
-    "forge:data_pack_format": 10
-  }
-=======
 {
   "pack": {
     "description": "azmode mod resources",
@@ -14,5 +5,4 @@
     "forge:resource_pack_format": 9,
     "forge:data_pack_format": 10
   }
->>>>>>> 50574afcd19d68244cb583c78a401a37f56ac70f
 }
