@@ -339,6 +339,71 @@
           "src/main/resources/data/azmode/recipes/holycraftsh.json"
         ]
       }
+    },
+    {
+      "name": "Holysworddistantlightnig",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holysworddistantlightnig",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/HolysworddistantlightnigProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Arkadyz",
+      "type": "animatedentity",
+      "sortid": 22,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "arkadyz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/entity/model/ArkadyzModel.java",
+          "src/main/resources/assets/azmode/models/item/arkadyz_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/entity/ArkadyzEntity.java",
+          "src/main/java/net/mcreator/azmode/client/renderer/ArkadyzRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Arkadyzdeathtime",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arkadyzdeathtime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/ArkadyzdeathtimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -348,6 +413,7 @@
       "item.azmode.mezz_spawn_egg": "Mezz Spawn Egg",
       "item.azmode.squeleta_z_spawn_egg": "SqueletaZ Spawn Egg",
       "item.azmode.holypickaxe": "Holy Pickaxe",
+      "item.azmode.arkadyz_spawn_egg": "Arkadyz Spawn Egg",
       "entity.azmode.tanuz": "Tanuz",
       "entity.azmode.mezz": "Mezz",
       "block.azmode.squeleta_z_head_b": "SqueletaZ Head",
@@ -357,7 +423,8 @@
       "item.azmode.holyshowel": "Holy Shovel",
       "entity.azmode.squeleta_z": "SqueletaZ",
       "entity.azmode.ra_z": "RaZ",
-      "item.azmode.ra_z_spawn_egg": "RaZ Spawn Egg"
+      "item.azmode.ra_z_spawn_egg": "RaZ Spawn Egg",
+      "entity.azmode.arkadyz": "Arkadyz"
     }
   },
   "foldersRoot": {

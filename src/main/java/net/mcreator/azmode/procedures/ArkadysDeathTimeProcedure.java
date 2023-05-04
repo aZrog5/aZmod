@@ -11,7 +11,7 @@ import net.minecraft.commands.CommandSource;
 
 import net.mcreator.azmode.entity.ArkadyzEntity;
 
-public class ArkadyzDeathTimeProcedure {
+public class ArkadysDeathTimeProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;

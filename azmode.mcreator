@@ -358,15 +358,50 @@
       "name": "Arkadyz",
       "type": "animatedentity",
       "sortid": 22,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arkadyz",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/azmode/entity/model/ArkadyzModel.java",
-          "src/main/resources/assets/azmode/models/item/arkadyz_spawn_egg.json",
           "src/main/java/net/mcreator/azmode/entity/ArkadyzEntity.java",
+          "src/main/resources/assets/azmode/models/item/arkadyz_spawn_egg.json",
           "src/main/java/net/mcreator/azmode/client/renderer/ArkadyzRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ArkadysDeathTime",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arkadys_death_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/ArkadysDeathTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }

@@ -100,7 +100,7 @@
       "value": ""
     },
     "whenMobDies": {
-      "name": "ArkadyzDeathTime"
+      "name": "Arkadyzdeathtime"
     },
     "hasAI": true,
     "aiBase": "(none)",
