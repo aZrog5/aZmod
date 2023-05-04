@@ -20,6 +20,7 @@ import net.mcreator.azmode.entity.TanuzEntity;
 import net.mcreator.azmode.entity.SqueletaZEntity;
 import net.mcreator.azmode.entity.RaZEntity;
 import net.mcreator.azmode.entity.MezzEntity;
+import net.mcreator.azmode.entity.ArkadyzEntity;
 import net.mcreator.azmode.AzmodeMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -41,6 +42,10 @@ public class AzmodeModEntities {
 			EntityType.Builder.<MezzEntity>of(MezzEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MezzEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ArkadyzEntity>> ARKADYZ = register("arkadyz",
+			EntityType.Builder.<ArkadyzEntity>of(ArkadyzEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ArkadyzEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -53,6 +58,7 @@ public class AzmodeModEntities {
 			RaZEntity.init();
 			TanuzEntity.init();
 			MezzEntity.init();
+			ArkadyzEntity.init();
 		});
 	}
 
@@ -62,5 +68,6 @@ public class AzmodeModEntities {
 		event.put(RA_Z.get(), RaZEntity.createAttributes().build());
 		event.put(TANUZ.get(), TanuzEntity.createAttributes().build());
 		event.put(MEZZ.get(), MezzEntity.createAttributes().build());
+		event.put(ARKADYZ.get(), ArkadyzEntity.createAttributes().build());
 	}
 }
