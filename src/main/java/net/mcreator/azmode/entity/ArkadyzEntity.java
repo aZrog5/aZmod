@@ -16,6 +16,7 @@ import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.npc.Villager;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
@@ -24,7 +25,6 @@ import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.Pose;
-import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
@@ -39,9 +39,10 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.azmode.procedures.ArkadysDeathTimeProcedure;
 import net.mcreator.azmode.init.AzmodeModEntities;
 
-public class ArkadyzEntity extends PathfinderMob implements IAnimatable {
+public class ArkadyzEntity extends Villager implements IAnimatable {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(ArkadyzEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(ArkadyzEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(ArkadyzEntity.class, EntityDataSerializers.STRING);
@@ -113,9 +114,20 @@ public class ArkadyzEntity extends PathfinderMob implements IAnimatable {
 	}
 
 	@Override
+	public boolean hurt(DamageSource source, float amount) {
+		if (source == DamageSource.FALL)
+			return false;
+		if (source == DamageSource.DROWN)
+			return false;
+		if (source == DamageSource.LIGHTNING_BOLT)
+			return false;
+		return super.hurt(source, amount);
+	}
+
+	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		ArkadyzdeathtimeProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		ArkadysDeathTimeProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

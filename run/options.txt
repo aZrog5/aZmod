@@ -40,7 +40,7 @@ renderClouds:"false"
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:localhost:25463
-lang:en_us
+lang:fr_fr
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
