@@ -364,8 +364,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/azmode/entity/model/ArkadyzModel.java",
-          "src/main/java/net/mcreator/azmode/entity/ArkadyzEntity.java",
           "src/main/resources/assets/azmode/models/item/arkadyz_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/entity/ArkadyzEntity.java",
           "src/main/java/net/mcreator/azmode/client/renderer/ArkadyzRenderer.java"
         ]
       }
