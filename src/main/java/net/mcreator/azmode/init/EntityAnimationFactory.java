@@ -8,6 +8,7 @@ import net.mcreator.azmode.entity.TanuzEntity;
 import net.mcreator.azmode.entity.SqueletaZEntity;
 import net.mcreator.azmode.entity.RaZEntity;
 import net.mcreator.azmode.entity.MezzEntity;
+import net.mcreator.azmode.entity.ArkadyzEntity;
 
 @Mod.EventBusSubscriber
 public class EntityAnimationFactory {
@@ -36,6 +37,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof MezzEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof ArkadyzEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

@@ -13,6 +13,7 @@ import net.mcreator.azmode.client.renderer.TanuzRenderer;
 import net.mcreator.azmode.client.renderer.SqueletaZRenderer;
 import net.mcreator.azmode.client.renderer.RaZRenderer;
 import net.mcreator.azmode.client.renderer.MezzRenderer;
+import net.mcreator.azmode.client.renderer.ArkadyzRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class AzmodeModEntityRenderers {
@@ -22,5 +23,6 @@ public class AzmodeModEntityRenderers {
 		event.registerEntityRenderer(AzmodeModEntities.RA_Z.get(), RaZRenderer::new);
 		event.registerEntityRenderer(AzmodeModEntities.TANUZ.get(), TanuzRenderer::new);
 		event.registerEntityRenderer(AzmodeModEntities.MEZZ.get(), MezzRenderer::new);
+		event.registerEntityRenderer(AzmodeModEntities.ARKADYZ.get(), ArkadyzRenderer::new);
 	}
 }
