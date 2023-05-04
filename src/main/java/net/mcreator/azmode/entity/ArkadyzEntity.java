@@ -39,6 +39,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.azmode.procedures.ArkadyzDeathTimeProcedure;
 import net.mcreator.azmode.init.AzmodeModEntities;
 
 public class ArkadyzEntity extends PathfinderMob implements IAnimatable {
@@ -110,6 +111,12 @@ public class ArkadyzEntity extends PathfinderMob implements IAnimatable {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		ArkadyzDeathTimeProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override
