@@ -369,6 +369,41 @@
           "src/main/java/net/mcreator/azmode/client/renderer/ArkadyzRenderer.java"
         ]
       }
+    },
+    {
+      "name": "ArkadyzDeathTime",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arkadyz_death_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/ArkadyzDeathTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

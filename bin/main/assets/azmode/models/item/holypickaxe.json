@@ -1,0 +1,26 @@
+{
+  "parent": "azmode:custom/holypickaxe",
+  "textures": {
+    "11": "azmode:blocks/texturep11",
+    "12": "azmode:blocks/texturep12",
+    "13": "azmode:blocks/texturep13",
+    "14": "azmode:blocks/texturep14",
+    "15": "azmode:blocks/texturep15",
+    "16": "azmode:blocks/texturep16",
+    "17": "azmode:blocks/texturep17",
+    "18": "azmode:blocks/texturep18",
+    "19": "azmode:blocks/texturep19",
+    "0": "azmode:blocks/texturep0",
+    "1": "azmode:blocks/texturep1",
+    "2": "azmode:blocks/texturep2",
+    "3": "azmode:blocks/texturep3",
+    "4": "azmode:blocks/texturep4",
+    "5": "azmode:blocks/texturep5",
+    "6": "azmode:blocks/texturep6",
+    "7": "azmode:blocks/texturep7",
+    "8": "azmode:blocks/texturep8",
+    "9": "azmode:blocks/texturep9",
+    "10": "azmode:blocks/texturep10",
+    "particle": "azmode:items/texture0"
+  }
+}
