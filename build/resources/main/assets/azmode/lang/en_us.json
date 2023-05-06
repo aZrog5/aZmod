@@ -1,9 +1,11 @@
 {
   "item.azmode.mezz_spawn_egg": "Mezz Spawn Egg",
+  "item.azmode.wong_spawn_egg": "Wong Spawn Egg",
   "item.azmode.squeleta_z_spawn_egg": "SqueletaZ Spawn Egg",
   "item.azmode.holypickaxe": "Holy Pickaxe",
   "item.azmode.arkadyz_spawn_egg": "Arkadyz Spawn Egg",
   "entity.azmode.tanuz": "Tanuz",
+  "entity.azmode.wong": "Wong",
   "entity.azmode.mezz": "Mezz",
   "block.azmode.squeleta_z_head_b": "SqueletaZ Head",
   "item.azmode.tanuz_spawn_egg": "Tanuz Spawn Egg",

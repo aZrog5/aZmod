@@ -387,6 +387,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -404,6 +408,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "ArkadyzHeal",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arkadyz_heal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/ArkadyzHealProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Wong",
+      "type": "animatedentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wong",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/azmode/models/item/wong_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/entity/WongEntity.java",
+          "src/main/java/net/mcreator/azmode/entity/model/WongModel.java",
+          "src/main/java/net/mcreator/azmode/client/renderer/WongRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -411,10 +445,12 @@
   "language_map": {
     "en_us": {
       "item.azmode.mezz_spawn_egg": "Mezz Spawn Egg",
+      "item.azmode.wong_spawn_egg": "Wong Spawn Egg",
       "item.azmode.squeleta_z_spawn_egg": "SqueletaZ Spawn Egg",
       "item.azmode.holypickaxe": "Holy Pickaxe",
       "item.azmode.arkadyz_spawn_egg": "Arkadyz Spawn Egg",
       "entity.azmode.tanuz": "Tanuz",
+      "entity.azmode.wong": "Wong",
       "entity.azmode.mezz": "Mezz",
       "block.azmode.squeleta_z_head_b": "SqueletaZ Head",
       "item.azmode.tanuz_spawn_egg": "Tanuz Spawn Egg",

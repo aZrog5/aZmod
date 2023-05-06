@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.azmode.entity.WongEntity;
 import net.mcreator.azmode.entity.TanuzEntity;
 import net.mcreator.azmode.entity.SqueletaZEntity;
 import net.mcreator.azmode.entity.RaZEntity;
@@ -46,6 +47,10 @@ public class AzmodeModEntities {
 			EntityType.Builder.<ArkadyzEntity>of(ArkadyzEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ArkadyzEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<WongEntity>> WONG = register("wong",
+			EntityType.Builder.<WongEntity>of(WongEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WongEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -59,6 +64,7 @@ public class AzmodeModEntities {
 			TanuzEntity.init();
 			MezzEntity.init();
 			ArkadyzEntity.init();
+			WongEntity.init();
 		});
 	}
 
@@ -69,5 +75,6 @@ public class AzmodeModEntities {
 		event.put(TANUZ.get(), TanuzEntity.createAttributes().build());
 		event.put(MEZZ.get(), MezzEntity.createAttributes().build());
 		event.put(ARKADYZ.get(), ArkadyzEntity.createAttributes().build());
+		event.put(WONG.get(), WongEntity.createAttributes().build());
 	}
 }

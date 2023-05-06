@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.azmode.client.renderer.WongRenderer;
 import net.mcreator.azmode.client.renderer.TanuzRenderer;
 import net.mcreator.azmode.client.renderer.SqueletaZRenderer;
 import net.mcreator.azmode.client.renderer.RaZRenderer;
@@ -24,5 +25,6 @@ public class AzmodeModEntityRenderers {
 		event.registerEntityRenderer(AzmodeModEntities.TANUZ.get(), TanuzRenderer::new);
 		event.registerEntityRenderer(AzmodeModEntities.MEZZ.get(), MezzRenderer::new);
 		event.registerEntityRenderer(AzmodeModEntities.ARKADYZ.get(), ArkadyzRenderer::new);
+		event.registerEntityRenderer(AzmodeModEntities.WONG.get(), WongRenderer::new);
 	}
 }

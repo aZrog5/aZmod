@@ -387,6 +387,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -403,6 +407,20 @@
             "type": "world"
           }
         ]
+      }
+    },
+    {
+      "name": "ArkadyzHeal",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arkadyz_heal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/procedures/ArkadyzHealProcedure.java"
+        ],
+        "dependencies": []
       }
     }
   ],

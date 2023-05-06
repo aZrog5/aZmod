@@ -358,8 +358,8 @@
       "name": "Arkadyz",
       "type": "animatedentity",
       "sortid": 22,
-      "compiles": false,
-      "locked_code": false,
+      "compiles": true,
+      "locked_code": true,
       "registry_name": "arkadyz",
       "metadata": {
         "files": [
@@ -384,6 +384,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
