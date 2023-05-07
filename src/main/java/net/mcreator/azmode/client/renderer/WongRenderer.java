@@ -25,9 +25,4 @@ public class WongRenderer extends GeoEntityRenderer<WongEntity> {
 		stack.scale(1f, 1f, 1f);
 		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
-
-	@Override
-	protected float getDeathMaxRotation(WongEntity entityLivingBaseIn) {
-		return 0.0F;
-	}
 }

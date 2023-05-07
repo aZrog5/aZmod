@@ -20,7 +20,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.monster.Zombie;
+import net.minecraft.world.entity.monster.Witch;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -50,7 +50,7 @@ import net.minecraft.network.protocol.Packet;
 import net.mcreator.azmode.init.AzmodeModItems;
 import net.mcreator.azmode.init.AzmodeModEntities;
 
-public class TanuzEntity extends Zombie implements IAnimatable {
+public class TanuzEntity extends Witch implements IAnimatable {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(TanuzEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(TanuzEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(TanuzEntity.class, EntityDataSerializers.STRING);
@@ -199,7 +199,6 @@ public class TanuzEntity extends Zombie implements IAnimatable {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-		builder = builder.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE);
 		return builder;
 	}
 

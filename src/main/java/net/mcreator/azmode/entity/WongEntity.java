@@ -59,6 +59,7 @@ public class WongEntity extends Monster implements IAnimatable {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -100,6 +101,11 @@ public class WongEntity extends Monster implements IAnimatable {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override
@@ -175,7 +181,7 @@ public class WongEntity extends Monster implements IAnimatable {
 	@Override
 	protected void tickDeath() {
 		++this.deathTime;
-		if (this.deathTime == 15) {
+		if (this.deathTime == 20) {
 			this.remove(WongEntity.RemovalReason.KILLED);
 			this.dropExperience();
 		}

@@ -18,11 +18,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -13434880,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -13434880,
+      "value": -1,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -65,7 +65,7 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "deathTime": 15,
+    "deathTime": 20,
     "lerp": 4,
     "disableCollisions": false,
     "ridable": false,
@@ -125,7 +125,7 @@
     "enable10": false,
     "breedable": false,
     "tameable": false,
-    "disableDeathRotation": true,
+    "disableDeathRotation": false,
     "headMovement": false,
     "eyeHeight": false,
     "breedTriggerItems": [],
@@ -138,7 +138,7 @@
     "rangedAttackRadius": 10.0,
     "height": 1.0,
     "spawnThisMob": false,
-    "doesDespawnWhenIdle": true,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
