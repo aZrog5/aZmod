@@ -298,22 +298,6 @@
       }
     },
     {
-      "name": "Mezz",
-      "type": "animatedentity",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mezz",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/azmode/entity/MezzEntity.java",
-          "src/main/java/net/mcreator/azmode/entity/model/MezzModel.java",
-          "src/main/resources/assets/azmode/models/item/mezz_spawn_egg.json",
-          "src/main/java/net/mcreator/azmode/client/renderer/MezzRenderer.java"
-        ]
-      }
-    },
-    {
       "name": "Holyshowel",
       "type": "tool",
       "sortid": 19,
@@ -443,27 +427,106 @@
           "src/main/java/net/mcreator/azmode/client/renderer/WongRenderer.java"
         ]
       }
+    },
+    {
+      "name": "Mezz",
+      "type": "animatedentity",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mezz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/azmode/entity/MezzEntity.java",
+          "src/main/java/net/mcreator/azmode/entity/model/MezzModel.java",
+          "src/main/resources/assets/azmode/models/item/mezz_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/client/renderer/MezzRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Wong2",
+      "type": "livingentity",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wong_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/azmode/models/item/wong_2_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/client/renderer/Wong2Renderer.java",
+          "src/main/java/net/mcreator/azmode/entity/Wong2Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Mezz2",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mezz_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/azmode/models/item/mezz_2_spawn_egg.json",
+          "src/main/java/net/mcreator/azmode/client/renderer/Mezz2Renderer.java",
+          "src/main/resources/data/azmode/forge/biome_modifier/mezz_2_biome_modifier.json",
+          "src/main/java/net/mcreator/azmode/entity/Mezz2Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "HolyAxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/azmode/models/item/holy_axe.json",
+          "src/main/java/net/mcreator/azmode/item/HolyAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HolycraftAx",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holycraft_ax",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/azmode/recipes/holycraft_ax.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.azmode.mezz_spawn_egg": "Mezz Spawn Egg",
-      "item.azmode.wong_spawn_egg": "Wong Spawn Egg",
+      "item.azmode.wong_spawn_egg": "Wong {WIP} Spawn Egg",
+      "item.azmode.mezz_spawn_egg": "Mezz {WIP} Spawn Egg",
       "item.azmode.squeleta_z_spawn_egg": "SqueletaZ Spawn Egg",
       "item.azmode.holypickaxe": "Holy Pickaxe",
+      "item.azmode.wong_2_spawn_egg": "Wong 2 Spawn Egg",
       "item.azmode.arkadyz_spawn_egg": "Arkadyz Spawn Egg",
       "entity.azmode.tanuz": "Tanuz",
-      "entity.azmode.wong": "Wong",
-      "entity.azmode.mezz": "Mezz",
+      "item.azmode.holy_axe": "Holy Axe",
+      "entity.azmode.wong": "Wong {WIP}",
+      "entity.azmode.mezz_2": "Mezz 2",
+      "entity.azmode.mezz": "Mezz {WIP}",
       "block.azmode.squeleta_z_head_b": "SqueletaZ Head",
       "item.azmode.tanuz_spawn_egg": "Tanuz Spawn Egg",
       "item.azmode.squeleta_z_head_i": "SqueletaZ Head",
+      "item.azmode.mezz_2_spawn_egg": "Mezz 2 Spawn Egg",
       "item.azmode.holysword": "Holy Sword",
       "item.azmode.holyshowel": "Holy Shovel",
       "entity.azmode.squeleta_z": "SqueletaZ",
       "entity.azmode.ra_z": "RaZ",
+      "entity.azmode.wong_2": "Wong 2",
       "item.azmode.ra_z_spawn_egg": "RaZ Spawn Egg",
       "entity.azmode.arkadyz": "Arkadyz"
     }

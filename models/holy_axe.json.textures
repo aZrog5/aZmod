@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texturesh3",
+        "1": "tax2",
+        "2": "tax3",
+        "3": "tax4",
+        "4": "tax5",
+        "5": "tax6",
+        "6": "tax7",
+        "7": "tax8"
+      },
+      "name": "default"
+    }
+  }
+}

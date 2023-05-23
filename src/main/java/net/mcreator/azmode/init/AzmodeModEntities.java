@@ -17,10 +17,12 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.azmode.entity.WongEntity;
+import net.mcreator.azmode.entity.Wong2Entity;
 import net.mcreator.azmode.entity.TanuzEntity;
 import net.mcreator.azmode.entity.SqueletaZEntity;
 import net.mcreator.azmode.entity.RaZEntity;
 import net.mcreator.azmode.entity.MezzEntity;
+import net.mcreator.azmode.entity.Mezz2Entity;
 import net.mcreator.azmode.entity.ArkadyzEntity;
 import net.mcreator.azmode.AzmodeMod;
 
@@ -39,16 +41,24 @@ public class AzmodeModEntities {
 			EntityType.Builder.<TanuzEntity>of(TanuzEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TanuzEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<MezzEntity>> MEZZ = register("mezz",
-			EntityType.Builder.<MezzEntity>of(MezzEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MezzEntity::new)
-
-					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<ArkadyzEntity>> ARKADYZ = register("arkadyz",
 			EntityType.Builder.<ArkadyzEntity>of(ArkadyzEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ArkadyzEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<WongEntity>> WONG = register("wong",
 			EntityType.Builder.<WongEntity>of(WongEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WongEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<MezzEntity>> MEZZ = register("mezz",
+			EntityType.Builder.<MezzEntity>of(MezzEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MezzEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<Wong2Entity>> WONG_2 = register("wong_2",
+			EntityType.Builder.<Wong2Entity>of(Wong2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Wong2Entity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<Mezz2Entity>> MEZZ_2 = register("mezz_2",
+			EntityType.Builder.<Mezz2Entity>of(Mezz2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Mezz2Entity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -62,9 +72,11 @@ public class AzmodeModEntities {
 			SqueletaZEntity.init();
 			RaZEntity.init();
 			TanuzEntity.init();
-			MezzEntity.init();
 			ArkadyzEntity.init();
 			WongEntity.init();
+			MezzEntity.init();
+			Wong2Entity.init();
+			Mezz2Entity.init();
 		});
 	}
 
@@ -73,8 +85,10 @@ public class AzmodeModEntities {
 		event.put(SQUELETA_Z.get(), SqueletaZEntity.createAttributes().build());
 		event.put(RA_Z.get(), RaZEntity.createAttributes().build());
 		event.put(TANUZ.get(), TanuzEntity.createAttributes().build());
-		event.put(MEZZ.get(), MezzEntity.createAttributes().build());
 		event.put(ARKADYZ.get(), ArkadyzEntity.createAttributes().build());
 		event.put(WONG.get(), WongEntity.createAttributes().build());
+		event.put(MEZZ.get(), MezzEntity.createAttributes().build());
+		event.put(WONG_2.get(), Wong2Entity.createAttributes().build());
+		event.put(MEZZ_2.get(), Mezz2Entity.createAttributes().build());
 	}
 }

@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "tax1",
+    "customModelName": "holy_axe:default",
+    "name": "Holy Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 11,
+    "efficiency": 14.0,
+    "attackSpeed": 11.0,
+    "enchantability": 12,
+    "damageVsEntity": 11.0,
+    "usageCount": 11100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

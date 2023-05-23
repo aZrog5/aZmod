@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "Mezz",
+    "mobName": "Mezz {WIP}",
     "mobLabel": "",
     "mobModelTexture": "mezz.png",
     "mobModelGlowTexture": "",
@@ -18,11 +18,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -103,
+      "value": -16711732,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -3355648,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -61,7 +61,7 @@
     "health": 10,
     "xpAmount": 0,
     "waterMob": false,
-    "flyingMob": true,
+    "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -73,10 +73,10 @@
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": true,
+    "immuneToFallDamage": false,
     "immuneToCactus": false,
     "immuneToDrowning": false,
-    "immuneToLightning": true,
+    "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "immuneToExplosion": false,
@@ -85,22 +85,22 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "Items.FEATHER"
+      "value": ""
     },
     "livingSound": {
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.vex.hurt"
+      "value": "entity.generic.hurt"
     },
     "deathSound": {
-      "value": "entity.vex.death"
+      "value": "entity.generic.death"
     },
     "stepSound": {
       "value": ""
     },
     "hasAI": true,
-    "aiBase": "(none)",
+    "aiBase": "Bat",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "model": "mezz.geo.json",
     "groupName": "",

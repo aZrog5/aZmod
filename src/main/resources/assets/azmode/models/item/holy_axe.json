@@ -1,0 +1,14 @@
+{
+  "parent": "azmode:custom/holy_axe",
+  "textures": {
+    "0": "azmode:blocks/texturesh3",
+    "1": "azmode:blocks/tax2",
+    "2": "azmode:blocks/tax3",
+    "3": "azmode:blocks/tax4",
+    "4": "azmode:blocks/tax5",
+    "5": "azmode:blocks/tax6",
+    "6": "azmode:blocks/tax7",
+    "7": "azmode:blocks/tax8",
+    "particle": "azmode:items/tax1"
+  }
+}
