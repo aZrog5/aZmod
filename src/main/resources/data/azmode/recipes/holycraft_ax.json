@@ -1,29 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "01",
-    "23",
-    "4 "
-  ],
-  "key": {
-    "0": {
-      "item": "minecraft:nether_star"
-    },
-    "1": {
-      "item": "minecraft:nether_star"
-    },
-    "2": {
-      "item": "minecraft:stick"
-    },
-    "3": {
-      "item": "minecraft:nether_star"
-    },
-    "4": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "item": "minecraft:nether_star"
   },
   "result": {
-    "item": "azmode:holy_axe",
-    "count": 1
+    "item": "azmode:holy_axe"
   }
 }

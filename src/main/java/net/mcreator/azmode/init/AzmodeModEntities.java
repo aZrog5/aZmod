@@ -54,7 +54,7 @@ public class AzmodeModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<Wong2Entity>> WONG_2 = register("wong_2",
-			EntityType.Builder.<Wong2Entity>of(Wong2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Wong2Entity::new)
+			EntityType.Builder.<Wong2Entity>of(Wong2Entity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Wong2Entity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<Mezz2Entity>> MEZZ_2 = register("mezz_2",

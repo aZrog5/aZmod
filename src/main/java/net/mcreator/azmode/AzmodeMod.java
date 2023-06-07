@@ -31,6 +31,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.azmode.init.AzmodeModTabs;
 import net.mcreator.azmode.init.AzmodeModItems;
 import net.mcreator.azmode.init.AzmodeModEntities;
 import net.mcreator.azmode.init.AzmodeModBlocks;
@@ -51,7 +52,7 @@ public class AzmodeMod {
 
 	public AzmodeMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		AzmodeModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		AzmodeModBlocks.REGISTRY.register(bus);

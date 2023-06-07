@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Az Mode",
+    "icon": {
+      "value": "Items.END_CRYSTAL"
+    },
+    "showSearch": false
+  }
+}
