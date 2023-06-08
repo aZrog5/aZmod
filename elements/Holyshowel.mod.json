@@ -8,7 +8,7 @@
     "name": "Holy Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:AzMode"
     },
     "toolType": "Spade",
     "harvestLevel": 11,

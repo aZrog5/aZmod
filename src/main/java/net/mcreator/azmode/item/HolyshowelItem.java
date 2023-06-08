@@ -7,7 +7,8 @@ import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.azmode.init.AzmodeModTabs;
 
 public class HolyshowelItem extends ShovelItem {
 	public HolyshowelItem() {
@@ -35,6 +36,6 @@ public class HolyshowelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.NETHER_STAR));
 			}
-		}, 1, 7f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, 7f, new Item.Properties().tab(AzmodeModTabs.TAB_AZ_MODE));
 	}
 }

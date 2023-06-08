@@ -8,7 +8,7 @@
     "name": "Holy Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:AzMode"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 10,

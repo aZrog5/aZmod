@@ -8,10 +8,10 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.InteractionResult;
 
 import net.mcreator.azmode.procedures.HolyswordLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure;
+import net.mcreator.azmode.init.AzmodeModTabs;
 
 public class HolyswordItem extends SwordItem {
 	public HolyswordItem() {
@@ -39,7 +39,7 @@ public class HolyswordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.NETHER_STAR));
 			}
-		}, 3, 7f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+		}, 3, 7f, new Item.Properties().tab(AzmodeModTabs.TAB_AZ_MODE).fireResistant());
 	}
 
 	@Override

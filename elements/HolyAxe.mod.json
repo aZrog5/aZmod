@@ -8,7 +8,7 @@
     "name": "Holy Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:AzMode"
     },
     "toolType": "Axe",
     "harvestLevel": 11,

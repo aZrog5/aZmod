@@ -8,7 +8,7 @@
     "name": "SqueletaZ Head",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:AzMode"
     },
     "stackSize": 64,
     "enchantability": 0,
